@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.DailySaver" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/primary_accent</item>
+        <item name="colorPrimaryVariant">@color/primary_accent</item>
+        <item name="colorOnPrimary">@color/text_primary</item>
+
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">@color/primary_accent</item>
+        <item name="colorSecondaryVariant">@color/primary_accent</item>
+        <item name="colorOnSecondary">@color/text_primary</item>
+
+        <!-- Status bar color -->
+        <item name="android:statusBarColor">@color/background</item>
+        <item name="android:navigationBarColor">@color/background</item>
+
+        <!-- Background colors -->
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:colorBackground">@color/background</item>
+
+        <!-- Text colors -->
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+
+        <!-- Material components customization -->
+        <item name="materialCardViewStyle">@style/Widget.DailySaver.CardView</item>
+        <item name="textInputStyle">@style/Widget.DailySaver.TextInputLayout</item>
+        <item name="materialButtonStyle">@style/Widget.DailySaver.Button</item>
+    </style>
+
+    <!-- Card style -->
+    <style name="Widget.DailySaver.CardView" parent="Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">@color/card_background</item>
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardElevation">0dp</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="strokeColor">@color/card_stroke</item>
+    </style>
+
+    <!-- Text input style -->
+    <style name="Widget.DailySaver.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/primary_accent</item>
+        <item name="hintTextColor">@color/primary_accent</item>
+        <item name="android:textColorHint">@color/text_secondary</item>
+    </style>
+
+    <!-- Button style -->
+    <style name="Widget.DailySaver.Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="backgroundTint">@color/primary_accent</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+</resources>

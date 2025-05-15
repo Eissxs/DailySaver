@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DailySaver</string>
+    
+    <!-- Common -->
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="undo">Undo</string>
+    
+    <!-- Home Screen -->
+    <string name="total_saved">Total Saved</string>
+    <string name="add_entry">Add Entry</string>
+    <string name="view_history">History</string>
+    <string name="goal_tracker">Goal Tracker</string>
+    <string name="settings">Settings</string>
+    
+    <!-- Milestone Messages -->
+    <string name="set_goal_message">Set a savings goal to track your progress!</string>
+    <string name="goal_complete">Amazing! Goal Complete! 🎉</string>
+    <string name="milestone_75">You\'re 75% there! Keep it up! 💪</string>
+    <string name="milestone_50">Halfway to your goal! 🌟</string>
+    <string name="milestone_25">Great start! 25% done! 🚀</string>
+    <string name="keep_going">Keep going! Every bit counts! 💰</string>
+    
+    <!-- Add Entry -->
+    <string name="enter_amount">Enter Amount</string>
+    <string name="add_note">Add Note (Optional)</string>
+    <string name="entry_saved">Entry Saved!</string>
+    
+    <!-- History -->
+    <string name="no_entries">No entries yet</string>
+    <string name="swipe_to_delete">Swipe left to delete</string>
+    
+    <!-- Goal Tracker -->
+    <string name="set_goal">Set Goal</string>
+    <string name="update_goal">Update Goal</string>
+    <string name="current_goal">Current Goal</string>
+    <string name="progress">Progress</string>
+    <string name="savings_trend">Savings Trend</string>
+    <string name="no_goal_set">No goal set</string>
+    <string name="goal_amount_format">Current Goal: %s</string>
+    
+    <!-- Settings -->
+    <string name="currency">Currency</string>
+    <string name="notifications">Daily Reminder</string>
+    <string name="notification_time">Reminder Time</string>
+    
+    <!-- Messages -->
+    <string name="entry_deleted">Entry deleted</string>
+    <string name="goal_updated">Savings goal updated</string>
+</resources>

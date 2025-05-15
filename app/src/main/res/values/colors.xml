@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base Theme Colors -->
+    <color name="background">#121212</color>
+    <color name="card_background">#1F1F1F</color>
+    <color name="primary_accent">#00C897</color>
+    <color name="progress_secondary">#FFD369</color>
+    <color name="error_alert">#FF6B6B</color>
+    <color name="ios_glass_light">#26262680</color>
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#AAAAAA</color>
+    <color name="card_stroke">#2F2F2F</color>
+    
+    <!-- System Colors -->
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    
+    <!-- Status Bar and Navigation -->
+    <color name="status_bar">#121212</color>
+    <color name="navigation_bar">#121212</color>
+</resources>
